@@ -4,6 +4,7 @@ import { FaTemperatureLow } from "react-icons/fa";
 import { GiWaterTank } from "react-icons/gi";
 import { useEffect, useState } from "react";
 import { backendDomainUrl } from "./utils/backendDomainUrl";
+import { PiPlantFill } from "react-icons/pi";
 
 function App() {
   const [senData, setsenData] = useState({});
