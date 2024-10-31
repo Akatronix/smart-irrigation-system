@@ -7,7 +7,19 @@ import { backendDomainUrl } from "./utils/backendDomainUrl";
 import { PiPlantFill } from "react-icons/pi";
 
 function App() {
-  const [senData, setsenData] = useState({});
+  const [senData, setsenData] = useState({
+      "plantOne": "0",
+      "plantTwo": "0",
+      "plantThree": "0",
+      "plantFour": "0",
+      "tankLevel": "",
+      "tankTapState": "",
+      "plantOneWaterTap": "",
+      "plantTwoWaterTap": "",
+      "plantThreeWaterTap": "",
+      "plantFourWaterTap": "",
+      "enviromentTemp": "",
+  });
 
   const dataMap = [
     {
