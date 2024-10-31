@@ -1,1 +1,1 @@
-export const backendDomainUrl = "http://localhost:8000";
+export const backendDomainUrl = "https://smart-irrigation-system-backend.vercel.app";
