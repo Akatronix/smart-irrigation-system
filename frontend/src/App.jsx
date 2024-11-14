@@ -33,7 +33,7 @@ function App() {
   ];
   useEffect(() => {
     async function fetchData() {
-      fetch(`${backendDomainUrl}/data`)
+      fetch("https://smart-irrigation-system-backend.vercel.app/data")
         .then((response) => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
