@@ -81,10 +81,7 @@ function App() {
         <div className="w-[330px] h-full p-[20px] bg-white rounded-md">
           <GiWaterTank className="w-[50px] h-[50px] font-bold text-blue-400" />
           <p>Water Supplying Tank</p>
-          <p>
-            <span className="text-gray-500">Level:</span>
-            <span className="text-lg ml-[10px]">{senData.tankLevel}</span>
-          </p>
+         
           <p>
             <span className="text-gray-500">state:</span>
             <span className="text-lg ml-[10px]">{senData.tankTapState}</span>
