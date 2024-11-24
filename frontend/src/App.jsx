@@ -93,7 +93,7 @@ function App() {
           <p>Environment Temperature</p>
           <span className="text-gray-500">Value:</span>
           <span className="text-2xl md:text-3xl font-bold ml-[10px]">
-            {senData.enviromentTemp}
+            {senData.enviromentTemp} °C
           </span>
         </div>
       </div>
