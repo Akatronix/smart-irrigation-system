@@ -83,7 +83,7 @@ function App() {
           <p>Water Supplying Tank</p>
          
           <p>
-            <span className="text-gray-500">state:</span>
+{/*             <span className="text-gray-500">state:</span> */}
             <span className="text-lg ml-[10px]">{senData.tankTapState}</span>
           </p>
         </div>
@@ -111,7 +111,7 @@ const PlantBoxing = ({ name, value, state }) => {
       <p>
         <span className="text-gray-500">Value:</span>
         <span className="text-2xl md:text-3xl font-bold ml-[10px]">
-          {value}
+          {value}%
         </span>
       </p>
       <p>
