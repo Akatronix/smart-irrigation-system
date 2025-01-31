@@ -83,7 +83,7 @@ function App() {
           <p>Water Supplying Tank</p>
          
           <p>
-{/*             <span className="text-gray-500">state:</span> */}
+            <span className="text-gray-500">Level:</span>
             <span className="text-lg ml-[10px]">{senData.tankTapState}</span>
           </p>
         </div>
